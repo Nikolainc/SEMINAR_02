@@ -65,13 +65,13 @@
         //782-> 8
         //918-> 1
 
-        int value;
-        Console.Write("Введите трехзначное число: ");
-        int.TryParse(Console.ReadLine(), out value);
-        if (value < 100 || value > 999)
-            Console.WriteLine("Нужно ввести именно трех значное число");
-        else
-            Console.WriteLine((value / 10) % 10);
+        //int value;
+        //Console.Write("Введите трехзначное число: ");
+        //int.TryParse(Console.ReadLine(), out value);
+        //if (value < 100 || value > 999)
+        //    Console.WriteLine("Нужно ввести именно трех значное число");
+        //else
+        //    Console.WriteLine((value / 10) % 10);
 
         #endregion
 
