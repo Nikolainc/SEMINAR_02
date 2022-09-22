@@ -82,18 +82,14 @@
         //78->третьей цифры нет
         //32679-> 6
 
-        //int value = 423000;
-        //if (value < 100)
+        //while (true)
         //{
-        //    Console.WriteLine("Третьей цифры нет");
-        //} 
-        //else if (value > 999)
-        //{
-        //    string str = value.ToString();
-        //    Console.WriteLine(str[2]);
-        //}
-        //else
-        //{
+        //    int value;
+        //    int.TryParse(Console.ReadLine(), out value);
+        //    value = Math.Abs(value);
+        //    var multiply = Math.Log10(value);
+        //    multiply = multiply - (int)multiply + 2;
+        //    value = (int)Math.Pow(10, multiply);
         //    Console.WriteLine(value % 10);
         //}
 
